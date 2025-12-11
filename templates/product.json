@@ -16,6 +16,10 @@
           "type": "title",
           "settings": {}
         },
+        "pdp_swatches": {
+          "type": "pdp_swatches",
+          "settings": {}
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -60,6 +64,7 @@
       "block_order": [
         "title",
         "vendor",
+        "pdp_swatches",
         "variant_picker",
         "quantity_selector",
         "price",

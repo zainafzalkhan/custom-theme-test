@@ -88,6 +88,8 @@
                   </h2>
                 </a>
               </div>
+            {%- when 'pdp_swatches' -%}
+              <div>This is to show related product as swatches</div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
